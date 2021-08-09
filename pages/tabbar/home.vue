@@ -34,7 +34,7 @@
 				<view class="floor-header row" @click="navTo('/pages/product/list?isHot=1')">
 					<image class="icon" src="/static/icon/hot.png"></image>
 					<view class="column fill">
-						<text class="tit">热门推荐111</text>
+						<text class="tit">热门推荐</text>
 						<text>Popular Recommendation</text>
 					</view>
 					<text class="mix-icon icon-you"></text>

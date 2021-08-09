@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 配色 */
+.back-btn.data-v-729d9e0a {
+  position: fixed;
+  right: 30rpx;
+  bottom: 100rpx;
+  z-index: 9999;
+  width: 80rpx;
+  height: 80rpx;
+  -webkit-border-radius: 200rpx;
+          border-radius: 200rpx;
+  background: -webkit-gradient(linear, left bottom, right top, from(#db2b36), to(#fa725d));
+  background: -webkit-linear-gradient(left bottom, #db2b36, #fa725d);
+  background: linear-gradient(to right top, #db2b36, #fa725d);
+  /* box-shadow: 2rpx 2rpx 10rpx rgba(228,63,66,.65) */
+}
+.icon-fanhui.data-v-729d9e0a {
+  font-size: 48rpx;
+  color: #fff;
+}
+

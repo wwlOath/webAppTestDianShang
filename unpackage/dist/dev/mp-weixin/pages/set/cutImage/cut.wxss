@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* 配色 */
+page, .content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  background-color: #000;
+  padding-top: 25px;
+}
+.title-view {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 100%;
+  background: transparent;
+}
+.title-view .back-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 42px;
+  height: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+.title-view .title {
+  font-size: 17px;
+  color: #fff;
+}
+.title-view .empty {
+  width: 42px;
+}
+.cropper {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.cropper-wrapper {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  background-color: #000;
+}
+.cropper-buttons {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.cropper-buttons .btn {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  color: #fff;
+}
+.cropper-buttons .btn.upload {
+  padding-left: 20px;
+}
+.cropper-buttons .btn.getCropperImage {
+  padding-right: 20px;
+  text-align: right;
+}
+

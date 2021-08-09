@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundColorTop": "#f7f7f7",
+  "usingComponents": {
+    "page-header": "/pages/tabbar/components/page-header",
+    "banner": "/pages/tabbar/components/banner",
+    "product-list": "/pages/product/components/product-list",
+    "home-advert-modal": "/pages/tabbar/components/home-advert-modal"
+  }
+}

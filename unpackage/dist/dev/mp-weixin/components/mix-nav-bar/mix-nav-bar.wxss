@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* 配色 */
+view.data-v-10edbb14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.fill-view.data-v-10edbb14 {
+  height: 84rpx;
+  width: 100%;
+}
+.nav-bar.data-v-10edbb14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  width: 750rpx;
+  height: 84rpx;
+  background-color: #fff;
+  z-index: 90;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.nav-bar.data-v-10edbb14:after {
+  border-color: #f7f7f7;
+}
+.nav-item.data-v-10edbb14 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 84rpx;
+  padding-top: 4rpx;
+  position: relative;
+}
+.tit-wrap.data-v-10edbb14 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  position: relative;
+}
+.number.data-v-10edbb14 {
+  position: absolute;
+  right: -20rpx;
+  top: 0px;
+  min-width: 36rpx;
+  height: 36rpx;
+  padding: 0 6rpx;
+  text-align: center;
+  line-height: 28rpx;
+  border: 4rpx solid #fff;
+  background-color: #ff536f;
+  -webkit-border-radius: 100rpx;
+          border-radius: 100rpx;
+  font-size: 20rpx;
+  color: #fff;
+}
+.tit.data-v-10edbb14 {
+  font-size: 30rpx;
+  color: #333;
+}
+.active.data-v-10edbb14 {
+  color: #ff4443;
+  font-weight: 700;
+}
+.line.data-v-10edbb14 {
+  width: 34rpx;
+  height: 4rpx;
+  -webkit-border-radius: 100rpx;
+          border-radius: 100rpx;
+  background-color: #ff4443;
+  opacity: 0;
+}
+.line--show.data-v-10edbb14 {
+  opacity: 1;
+}
+
